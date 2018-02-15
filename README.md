@@ -90,6 +90,7 @@ sudo reboot now
 
 Log back in to your vm and be root
 ```
+ssh -i your_pem_file ec2-user@your_pub_ip
 sudo su
 ```
 
