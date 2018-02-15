@@ -14,15 +14,16 @@ Change to the new directory
 cd /opt/installer/
 ```
 
+Install wget
+```
+yum install wget
+```
+
 Grab the Kinetica installer
 ```
 wget http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/gpudb-cuda80-license-6.1.0.0.20171120134200.beta2-0.el6.x86_64.rpm
 ```
 
-Install wget
-```
-yum install wget
-```
 
 Grab the Kinetica Repo
 ```
