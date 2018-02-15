@@ -88,6 +88,11 @@ Reboot vm
 sudo reboot now
 ```
 
+Log back in to your vm and be root
+```
+sudo su
+```
+
 Change directory
 ```
 cd /opt/installer/
