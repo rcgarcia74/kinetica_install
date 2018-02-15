@@ -75,7 +75,7 @@ yum install epel-release-7-11.noarch.rpm
 ```
 Install Kernel dependencies
 ```
-yum -y install kernel-devel kernel-headers gcc dkms acpid
+yum -y install kernel-devel-$(uname -r) kernel-headers-$(uname -r) acpid dkms
 ```
 
 Upgrade kernel
@@ -86,11 +86,6 @@ yum upgrade kernel
 Reboot vm
 ```
 sudo reboot now
-```
-
-Log back in to your vm and be root
-```
-sudo su
 ```
 
 Change directory
