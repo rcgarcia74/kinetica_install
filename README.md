@@ -1,4 +1,4 @@
-# kinetica_install
+# kinetica_install For RHEL 7 in AWS
 
 Switch to root user
 ```
@@ -19,7 +19,7 @@ Install wget
 yum install wget
 ```
 
-Grab the Kinetica installer
+Grab the Kinetica installer. Not needed since repo takes care of downloading the the rpm bits.
 ```
 wget http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/gpudb-cuda80-license-6.1.0.4.20180209223113.ga-0.el6.x86_64.rpm
 ```
@@ -88,6 +88,12 @@ Reboot vm
 sudo reboot now
 ```
 
+Log back in to your vm and be root
+```
+ssh -i your_pem_file ec2-user@your_pub_ip
+sudo su
+```
+
 Change directory
 ```
 cd /opt/installer/
@@ -106,7 +112,7 @@ Check if NVidia Driver was Installed Properly
 nvidia-smi
 ```
 
-Enable NVidia Persistence
+Enable NVidia Persistence. Make sure to also put this into /etc/rc.local file.
 ```
 nvidia-smi -pm 1
 ```
