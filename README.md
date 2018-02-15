@@ -74,6 +74,7 @@ wget http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.
 yum install epel-release-7-11.noarch.rpm
 ```
 Install Kernel dependencies
+
 For CentOS ONLY
 ```
 yum -y install kernel-devel-$(uname -r) kernel-headers-$(uname -r) acpid dkms
