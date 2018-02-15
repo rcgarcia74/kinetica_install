@@ -112,7 +112,7 @@ Check if NVidia Driver was Installed Properly
 nvidia-smi
 ```
 
-Enable NVidia Persistence
+Enable NVidia Persistence. Make sure to also put this into /etc/rc.local file.
 ```
 nvidia-smi -pm 1
 ```
