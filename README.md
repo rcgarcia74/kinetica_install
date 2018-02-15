@@ -48,7 +48,12 @@ Backup Grub Conf file
 cp /boot/grub/grub.conf /boot/grub/grub.conf.bak
 ```
 
-Edit Grub Conf file and add the line 
+Edit grub.conf file
+```
+vi /boot/grub/grub.conf
+```
+
+Edit Grub Conf file and add the line at the kernel line
 ```
 elevator=noop
 ```
