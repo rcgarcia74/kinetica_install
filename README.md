@@ -1,4 +1,4 @@
-# kinetica_install
+# kinetica_install For RHEL 7 in AWS
 
 Switch to root user
 ```
