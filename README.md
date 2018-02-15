@@ -38,9 +38,9 @@ yum -y install pciutils
 Disable Noveau
 ```
 cat <<EOF | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
- blacklist nouveau
- options nouveau modeset=0
- EOF
+blacklist nouveau
+options nouveau modeset=0
+EOF
 ```
 
 Backup Grub Conf file
