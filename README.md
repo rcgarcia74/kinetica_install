@@ -136,11 +136,11 @@ nvidia-smi -pm 1
 
 Update OS
 ```
-yum update
+yum -y update
 ```
  
 Install Kinetica
 ```
-yum install gpudb-cuda80-license
+yum -y install gpudb-cuda80-license
 ```
 
