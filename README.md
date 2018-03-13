@@ -97,7 +97,7 @@ yum -y install kernel-devel kernel-headers gcc dkms acpid
 
 Upgrade kernel
 ```
-yum upgrade kernel
+yum -y upgrade kernel
 ```
 
 Reboot vm
