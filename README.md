@@ -24,7 +24,6 @@ Grab the Kinetica installer. Not needed since repo takes care of downloading the
 wget http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/gpudb-cuda80-license-6.1.0.8.20180310160518.ga-0.el6.x86_64.rpm
 ```
 
-
 Grab the Kinetica Repo
 ```
 wget -O /etc/yum.repos.d/kinetica-6.1.0.repo http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/kinetica-6.1.0.repo
@@ -57,6 +56,7 @@ Edit Grub Conf file and add the line at the kernel line
 ```
 elevator=noop
 ```
+
 It should look something similar like this.
 ```
 default=0
@@ -69,7 +69,6 @@ title Red Hat Enterprise Linux 7 (3.10.0-693.11.6.el7.x86_64)
         initrd /boot/initramfs-3.10.0-693.11.6.el7.x86_64.img
 ```
 
-```
 Move initramfs
 ```
 mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img
