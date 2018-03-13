@@ -57,6 +57,17 @@ Edit Grub Conf file and add the line at the kernel line
 ```
 elevator=noop
 ```
+It should look something similar like this.
+```
+default=0
+timeout=0
+
+
+title Red Hat Enterprise Linux 7 (3.10.0-693.11.6.el7.x86_64)
+        root (hd0)
+        kernel /boot/vmlinuz-3.10.0-693.11.6.el7.x86_64 ro root=UUID=3e11801e-5277-4d87-be4c-0a9a61fbc3da console=hvc0 LANG=en_US.UTF-8 elevator=noop
+        initrd /boot/initramfs-3.10.0-693.11.6.el7.x86_64.img
+``
 
 Move initramfs
 ```
