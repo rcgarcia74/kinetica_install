@@ -16,7 +16,7 @@ cd /opt/installer/
 
 Install wget
 ```
-yum install wget
+yum -y install wget
 ```
 
 Grab the Kinetica installer. Not needed since repo takes care of downloading the the rpm bits.
