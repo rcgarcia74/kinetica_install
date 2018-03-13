@@ -121,7 +121,7 @@ Install CUDA
 wget https://developer.nvidia.com/compute/cuda/9.1/Prod/local_installers/cuda-repo-rhel7-9-1-local-9.1.85-1.x86_64
 rpm -i cuda-repo-rhel7-9-1-local-9.1.85-1.x86_64
 yum clean all
-yum install cuda
+yum -y install cuda
 ```
 
 Check if NVidia Driver was Installed Properly
@@ -136,7 +136,7 @@ nvidia-smi -pm 1
 
 Update OS
 ```
- yum update
+yum update
 ```
  
 Install Kinetica
