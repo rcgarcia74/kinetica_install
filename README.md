@@ -82,7 +82,7 @@ dracut /boot/initramfs-$(uname -r).img $(uname -r)
 Install EPEL release 7
 ```
 wget http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
-yum install epel-release-7-11.noarch.rpm
+yum -y install epel-release-7-11.noarch.rpm
 ```
 Install Kernel dependencies
 
