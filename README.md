@@ -53,7 +53,7 @@ Edit Grub Conf file and add the line at the kernel line
 elevator=noop
 ```
 
-It should look something similar like this.
+It should look something similar below.
 ```
 default=0
 timeout=0
