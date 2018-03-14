@@ -142,3 +142,4 @@ yum -y install gpudb-cuda80-license
 
 After the installation, all Kinetica services will be up and running. Go to your browser and enter your URL - http://your_public_ip:8080.
 
+![alt text](https://github.com/rcgarcia74/kinetica_install/blob/master/license_window.png)
