@@ -148,6 +148,10 @@ You will then be presented the Setup Wizard. Provide the private IP address of e
 
 ![alt text](https://github.com/rcgarcia74/kinetica_install/blob/master/1.png)
 
-Once you are done setting up the IPs, it will take you to the configuration page. There shouldn't be any changes made unless there's something specifically needed to accommodate a particular use case. Just continue and start Kinetica. You should see something like the one below.
+Once you are done setting up the IPs, it will take you to the configuration page. There shouldn't be any changes made unless there's something specifically needed to accommodate a particular use case. 
+
+
+
+Just continue and start Kinetica. You should see something like the one below.
 
 ![alt text](https://github.com/rcgarcia74/kinetica_install/blob/master/2.png)
