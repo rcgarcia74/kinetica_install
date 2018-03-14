@@ -20,11 +20,6 @@ Install wget
 yum -y install wget
 ```
 
-Grab the Kinetica installer. Not needed since repo takes care of downloading the the rpm bits.
-```
-wget http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/gpudb-cuda80-license-6.1.0.8.20180313143411.ga-0.el6.x86_64.rpm
-```
-
 Grab the Kinetica Repo
 ```
 wget -O /etc/yum.repos.d/kinetica-6.1.0.repo http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/kinetica-6.1.0.repo
