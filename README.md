@@ -1,5 +1,5 @@
 # kinetica_install For RHEL 7 in AWS
-This uses the latest Kinetica 6.1.0.8. Make sure that your AWS account doesn't limit GPU instances that you can use. The following GPUs can be used: G3, P2, P3. 
+This uses the latest Kinetica 6.1.0.8. **Make sure that your AWS account doesn't limit GPU instances that you can use. The following GPUs can be used: G3, P2, P3. **
 
 Switch to root user
 ```
