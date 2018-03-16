@@ -1,5 +1,5 @@
 # kinetica_install For RHEL 7 in AWS
-This uses the latest Kinetica 6.1.0.8. __Make sure that your AWS account doesn't limit GPU instances that you can use. The following GPUs can be used: G3, P2, P3.__
+This uses the latest Kinetica 6.1.0.8. __Make sure that your AWS account doesn't limit GPU instances that you can use. The following GPUs can be used: G3, P2, P3.__ If you wan to use a static IP, make sure that you have created Elastic IP Address that you can associate the vm to.
 
 Switch to root user
 ```
