@@ -20,9 +20,14 @@ Install wget
 yum -y install wget
 ```
 
-Grab the Kinetica Repo
+Grab the Kinetica Repo 
+for 6.1
 ```
 wget -O /etc/yum.repos.d/kinetica-6.1.0.repo http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/kinetica-6.1.0.repo
+```
+for 6.2
+```
+wget -O /etc/yum.repos.d/kinetica-6.2.0.repo http://repo.kinetica.com/yum/6.2.0/CentOS/7/x86_64/kinetica-6.2.0.repo
 ```
 
 Install PCI Utils
@@ -136,8 +141,13 @@ yum -y update
 ```
  
 Install Kinetica
+for cuda80
 ```
 yum -y install gpudb-cuda80-license
+```
+for cuda91
+```
+yum -y install gpudb-cuda91-license
 ```
 
 After the installation, all Kinetica services will be up and running. Go to your browser and enter your URL - http://your_public_ip:8080.
