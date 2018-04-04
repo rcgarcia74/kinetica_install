@@ -143,11 +143,6 @@ yum -y update
  
 Install Kinetica
 
-for cuda80
-```
-yum -y install gpudb-cuda80-license
-```
-for cuda91
 ```
 yum -y install gpudb-cuda91-license
 ```
