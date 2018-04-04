@@ -24,7 +24,7 @@ Grab the Kinetica Repo
 
 for 6.1
 ```
-wget -O /etc/yum.repos.d/kinetica-6.1.0.repo http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/kinetica-6.1.0.repo
+wget -O /etc/yum.repos.d/kinetica-6.1.0.repo http://repo.kinetica.com/yum/6.1.0/CentOS/6/x86_64/kinetica-6.2.0.repo
 ```
 for 6.2
 ```
