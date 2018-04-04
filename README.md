@@ -104,7 +104,7 @@ yum -y upgrade kernel
 
 Reboot vm
 ```
-sudo reboot now
+reboot now
 ```
 
 Log back in to your vm and be root
